@@ -131,19 +131,27 @@ nav a:hover
     margin-bottom: 25px;
 }
 
-@media all and (orientation: portrait) and (max-width:926px){
+@media all and (orientation: portrait) and (max-width:428px){
     #banniere_image{
         display: none;   
     }
+    body{
+        display: flex;
+        width:auto;  
+    }
+    #bloc_page{
+        width: 350spx;
+    } section{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 350px;
+    }
+}
 
-}
-    @media all and (orientation: portrait) and (max-width:428px){
-        body{
-            display: flex;
-            width:auto;  
-        }
-}
-    
+
+
+
 
 #banniere_description
 {
@@ -189,15 +197,8 @@ section
     margin-bottom: 20px;
 }
 
-@media all and (orientation: portrait) and (max-width:428px){
-    section{
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        width: auto;
-    }
 
-}
+   
 article, aside
 {
     text-align: justify;
@@ -315,10 +316,11 @@ footer h1
     color: #760001;
 }
 
-@media all and (orientation: portrait) and (max-width:926px){
+@media all and (orientation: portrait) and (max-width:428px){
     aside{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
        
     }
 }
