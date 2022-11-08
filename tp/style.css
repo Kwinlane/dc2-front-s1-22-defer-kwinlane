@@ -137,15 +137,44 @@ nav a:hover
     }
     body{
         display: flex;
-        width:auto;  
+        width:428px;  
+        margin: 0px;
+        padding: 0px;
     }
     #bloc_page{
-        width: 350spx;
-    } section{
+        width: 350px;
+    } 
+    section{
         display: flex;
         flex-direction: column;
         text-align: left;
-        width: 350px;
+
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 428px;
+        flex-wrap: nowrap;
+
+    }
+    html{
+        width: 428px;
+    }
+    li{
+        margin: 0;
+        padding: 0;
+    }
+    aside{
+        flex-direction: row;
+        justify-content: center;
+        }
+    #mes_photos{
+        display: block;
+        flex-direction: row;
     }
 }
 
