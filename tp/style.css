@@ -148,6 +148,9 @@ nav a:hover
         display: flex;
         flex-direction: column;
         text-align: left;
+        margin: 0;
+        padding: 0;
+        width: 428px;
 
     }
     nav ul{
@@ -169,12 +172,22 @@ nav a:hover
         padding: 0;
     }
     aside{
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         }
     #mes_photos{
         display: block;
         flex-direction: row;
+    }
+    #bloc_page{
+        margin: 0;
+        padding: 0;
+    }
+    article{
+        width: auto;
+        margin: 0;
+        padding: 0;
     }
 }
 
